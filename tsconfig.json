@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [ "ES2020", "DOM" ],
+    "module": "ESNext",
+    "types": [ "vite/client", "node" ],
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@vitejs/plugin-react": [ "node_modules/@vitejs/plugin-react" ]
+    }
+  }
+}
